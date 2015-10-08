@@ -3,31 +3,61 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Enjoy</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
         <link rel="stylesheet" href="css/normalize.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
+        <style>
+	        body{
+		        background: url(blueprint.png);
+		        background-size: 150px Auto;
+		        font-family: 'Roboto', sans-serif;
+		        color:white;
+	        }
+	        .container {
+			   display: -webkit-flex;
+			   display: flex;
+			   -webkit-flex-direction: row /* works with row or column */
+			   flex-direction: row;
+			   -webkit-align-items: center;
+			   align-items: center;
+			   -webkit-justify-content: center;
+			   justify-content: center;
+			}			
+	        .text-center{
+		        text-align: center;
+	        }
+	        li{
+		        margin-top:5px;
+		        list-style-type: none;
+	        }
+	    </style>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-		<img src="http://placehold.it/350x350">
-		<img src="http://placehold.it/350x350">
-		<h1>Couple of Quick Notes:</h1>
+        <h2 class="text-center">Please choose between foundation or Bootstrap:</h2>
+		<div class="container">
+			<div class="flex">
+				<a href="foundation/index.html"><img src="foundation.svg" style="width: 300px"></a>
+				<a href="bootstrap/index.html"><img src="bootstrap.png"></a>
+			</div>
+		</div>
+		<h1 class="text-center">Couple of Quick Notes:</h1>
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li>1) This page uses flex box. (though I doubt it) if you viewing on IE8/ IE9 or an old android browser it will not work perfectly. ( <a href="http://caniuse.com/#feat=flexbox">See flexbox support</a> )</li>
+			<li>2) I decided to do two versions of the requested project one in Zurb's foundation Framework and one in Twitter Bootstrap's framework. I'm a fan of both projects and didn't want to show priority to either.</li>
+			<li>3) When looking at the provided documentation the images were at various screen sizes. I took this to mean that the site should look like the image at the pixel denominations. If these were meant to be breakpoints, please let me know and I will adjust the code accordingly.</li>
+			<li>4) Just for fun I took a couple of liberties with each iteration. I hope you enjoy them :)</li>
 		</ul>
+		<h2 class="text-center">Thanks, Talk to you soon<br>
+			<small><em>-Jon Paul Uritis</em></small>
+		</h2>
     
     </body>
 </html>
