@@ -137,6 +137,14 @@ p{
 .create-space-big{
 	margin: 7rem;
 }
+.create-space-last{
+	margin-top: 7rem;
+	margin-bottom: 12rem;
+}
+/*pretty terrible that Apple didn't stick to the spec*/
+.safari-spacer{
+	height:150px;
+}
 
 
 /*===================
