@@ -14,7 +14,7 @@ Download the Zip file to view the code or use it for your purposes.
 
 ## Tests
 
-Light functional testing was performed by on the Foundation and Bootstrap examples. No automated testing was performed.
+Light functional testing was performed by on the Foundation and Bootstrap examples. Cross Browser Testing was done on Chrome, Firefox, Safari, and Opera. No automated testing was performed.
 
 ## Contributors
 
