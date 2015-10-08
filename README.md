@@ -1,3 +1,4 @@
+![Funny Pic](http://mattdturner.com/wordpress/wp-content/uploads/2011/04/punitionis8.jpg)
 ## Synopsis
 
 This project is a quick and dirty execution of some common uses for Zurb Foundation and/or Twitter Bootstrap. 
